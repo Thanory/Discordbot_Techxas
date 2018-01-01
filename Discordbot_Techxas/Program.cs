@@ -26,7 +26,7 @@ namespace Discordbot_Techxas
                 .AddSingleton(_commands)
                 .BuildServiceProvider();
             //You need to add the Token for your Discord Bot to the code below.
-            string botToken = "YOUR TOKEN HERE";
+            string botToken = "YOUR CODE HERE";
 
             //event subscriptions
             _client.Log += Log;
