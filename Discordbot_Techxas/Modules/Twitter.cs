@@ -1,4 +1,5 @@
-﻿using Discord.Commands;
+﻿using Discord;
+using Discord.Commands;
 using System.Threading.Tasks;
 
 namespace Discordbot_Techxas.Modules
@@ -9,7 +10,7 @@ namespace Discordbot_Techxas.Modules
         [Command("Twitter")]
         public async Task PingAsync()
         {
-            await ReplyAsync($"{Context.User.Mention} || You can find {Context.Guild.Owner.Mention} 's brain dumps of knowledge and randomness at https://twitter.com/Justin_Thanory");
+            await ReplyAsync($"{Context.User.Mention} || You can find {Context.Guild.Owner.Mention} 's brain dumps of knowledge and randomness at NEED TO MAKE LINK READ FROM DISCORD PROFILE");
         }        
     }
 }

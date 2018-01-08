@@ -9,7 +9,7 @@ namespace Discordbot_Techxas.Modules
         [Command("Twitch")]
         public async Task PingAsync()
         {
-            await ReplyAsync($"{Context.User.Mention} || {Context.Guild.Owner.Mention} streams live on Twitch at https://www.twitch.tv/thanory");
+            await ReplyAsync($"{Context.User.Mention} || {Context.Guild.Owner.Mention} streams live on Twitch at NEED TO MAKE LINK READ FROM DISCORD PROFILE");
         }
     }
 }

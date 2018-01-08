@@ -26,7 +26,7 @@ namespace Discordbot_Techxas
                 .AddSingleton(_commands)
                 .BuildServiceProvider();
             //You need to add the Token for your Discord Bot to the code below.
-            string botToken = "YOUR CODE HERE";
+            string botToken = "YOUR BOT KEY HERE";
 
             //event subscriptions
             _client.Log += Log;
@@ -45,7 +45,7 @@ namespace Discordbot_Techxas
         {
             var guild = user.Guild;
             var channel = guild.DefaultChannel;
-            await channel.SendMessageAsync($"Welcome, {user.Mention}");
+            await channel.SendMessageAsync($"Welcome, {user.Mention}. Please follow OWNER on TWITTERLINK.");
         }
 
         private Task Log(LogMessage arg)
