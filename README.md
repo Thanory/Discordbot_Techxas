@@ -16,4 +16,4 @@ RogueException/Discord.Net
 TODO:
  * Add ability for bot to read token from text file.
  * In the Twitch and Twitter module use Discord profile data to auto-fill links. Currently Links are static to my personal. 
- * Give more information about the PVP fight module to users in chat. Like !fight @user, !slash, and @giveup. 
+ * Give more information about the PVP fight module to users in chat. Like !fight @user, !slash, and !giveup. 
